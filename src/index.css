@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  [dir="rtl"] {
+    font-family: 'Cairo', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom glow and grid patterns */
+.bg-grid-pattern {
+  background-size: 24px 24px;
+  background-image: radial-gradient(rgba(14, 165, 233, 0.2) 1.5px, transparent 1.5px);
+}
+
+.bg-dot-pattern {
+  background-size: 16px 16px;
+  background-image: radial-gradient(rgba(56, 189, 248, 0.35) 1.5px, transparent 1.5px);
+}
+
